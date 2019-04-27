@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>interpolateJS</title>
+	<meta name="description" content="interpolate-js">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+	<script src="../dist/bundle_iife.js"></script>
+</head>
+<body>
+<p style="margin: 10px 0 0 15px;">
+	Check the <code>console</code>
+</p>
+<script>
+const { interpolation, fraction } = interpolateJS;
+
+const xValues = [fraction(1, 3), fraction(1, 4), 1];
+const yValues = [2, -1, 7];
+
+const pOfx = interpolation(xValues, yValues);
+console.log(
+	"p(1/3) =",
+	pOfx.evaluate(
+		fraction(1, 3)
+	)
+);
+</script>
+</body>
+</html>
