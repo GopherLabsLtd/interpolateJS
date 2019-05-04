@@ -21,7 +21,7 @@ npm i --save @theiliad/interpolatejs
 
 ## Usage
 ```js
-import { interpolation, fraction } from "@theiliad/interpolatejs";
+import { interpolation, fraction } from "@theiliad/interpolatejs/index";
 
 const xValues = [fraction(1, 3), fraction(1, 4), 1];
 const yValues = [2, -1, 7];
