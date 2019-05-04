@@ -1,6 +1,6 @@
 {
   "name": "interpolatejs",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Interpolate valueson the go",
   "main": "index.js",
   "module": "bundle_es.js",
