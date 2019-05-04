@@ -1,5 +1,5 @@
 {
-  "name": "interpolatejs",
+  "name": "@theiliad/interpolatejs",
   "version": "1.0.4",
   "description": "Interpolate valueson the go",
   "main": "index.js",
