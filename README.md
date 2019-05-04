@@ -15,7 +15,7 @@
 ## Intro
 InterpolateJS constructs a linear interpolation function `p(x)` for your provided set of x and y-values, using the Lagrange basis polynomials.
 
-!["Lagrange basis polynomials"](./docs/basis_polynomial.svg)
+!["Lagrange basis polynomials"](https://raw.githubusercontent.com/GopherLabsLtd/interpolateJS/master/docs/basis_polynomial.svg?sanitize=true)
 
 Using `.evaluate()` you can then provide an x-value to the function, and get an interpolated y-value.
 
