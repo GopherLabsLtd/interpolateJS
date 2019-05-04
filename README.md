@@ -6,6 +6,9 @@
 		<a href="https://www.npmjs.com/package/@theiliad/interpolatejs">
 			<img src="https://img.shields.io/npm/v/@theiliad/interpolatejs.svg" />
 		</a>
+		<a href="https://github.com/rollup/rollup/blob/master/LICENSE.md">
+		    <img src="https://img.shields.io/npm/l/rollup.svg" alt="license">
+		</a>
 	</p>
 </p>
 
