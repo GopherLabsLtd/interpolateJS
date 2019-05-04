@@ -1,8 +1,7 @@
 {
   "name": "@theiliad/interpolatejs",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Interpolate valueson the go",
-  "main": "index.js",
   "module": "bundle_es.js",
   "browser": "bundle_iife.js",
   "scripts": {
