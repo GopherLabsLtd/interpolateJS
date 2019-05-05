@@ -27,6 +27,7 @@ npm i --save @theiliad/interpolatejs
 ```
 
 ## Usage
+**import/require:**
 ```js
 import { interpolation, fraction } from "@theiliad/interpolatejs/index";
 
@@ -36,4 +37,23 @@ const pOfx = interpolation(xValues, yValues);
 
 console.log("p(1/3) =", pOfx.evaluate(fraction(1, 3)));
 // ==> p(1/3) = 2
+```
+
+**In-browser CDN Usage:**
+```html
+<script src="https://unpkg.com/@theiliad/interpolatejs"></script>
+<script>
+const { interpolation, fraction } = interpolateJS;
+
+const xValues = [fraction(1, 3), fraction(1, 4), 1];
+const yValues = [2, -1, 7];
+
+const pOfx = interpolation(xValues, yValues);
+console.log(
+	"p(1/3) =",
+	pOfx.evaluate(
+		fraction(1, 3)
+	)
+);
+</script>
 ```
